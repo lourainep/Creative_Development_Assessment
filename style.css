@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: linear-gradient(90deg, hsla(203, 72%, 82%, 1) 15%, hsla(194, 64%, 59%, 1) 36%, hsla(201, 93%, 46%, 1) 79%);  
+    
+  }
+  .container {
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100;
+    position: relative;
+  }
+  
+  .female {
+    position: absolute;
+    margin: 0 auto;
+
+  }
+  .headline1 {
+    position: absolute;
+    top: -160px;
+    bottom: 0;
+    right: 0;
+    left: -112px;
+  }
+  
+  .headline2 {
+    position: absolute;
+    top: -300px;
+    right: -500px;
+  }
+  .subheadline {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .learn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top: 620px;
+  }
+  
+  .logo {
+    position: absolute;
+    left: -4rem;
+  }
+
+  .replay {
+    position: absolute;
+    border: none;
+    border-radius: 5%;
+    background-image: url("replay.png");
+    bottom: 0;
+    left: 300px;
+  }
